@@ -9,15 +9,13 @@ namespace UnitConversionApp
             int userMenuChoiceNumber;
             do
             { 
-               userMenuChoiceNumber = Menu.PrimeCheckMenuTight.MenuOne(true);
+               userMenuChoiceNumber = Menu.PrimeCheckMenuTight.MenuOne(false);
 
                 if (userMenuChoiceNumber == 1)
                 {
                     PrimeTest.TestNumberForPrimeStatus();
                 }
-                
-                
-
+      
             } while (userMenuChoiceNumber == 1);
 
 
