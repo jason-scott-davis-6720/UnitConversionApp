@@ -1,0 +1,16 @@
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\bin\Debug\net5.0\UnitConversionApp.exe
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\bin\Debug\net5.0\UnitConversionApp.deps.json
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\bin\Debug\net5.0\UnitConversionApp.runtimeconfig.json
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\bin\Debug\net5.0\UnitConversionApp.runtimeconfig.dev.json
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\bin\Debug\net5.0\UnitConversionApp.dll
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\bin\Debug\net5.0\ref\UnitConversionApp.dll
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\bin\Debug\net5.0\UnitConversionApp.pdb
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\obj\Debug\net5.0\UnitConversionApp.csproj.AssemblyReference.cache
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\obj\Debug\net5.0\UnitConversionApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\obj\Debug\net5.0\UnitConversionApp.AssemblyInfoInputs.cache
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\obj\Debug\net5.0\UnitConversionApp.AssemblyInfo.cs
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\obj\Debug\net5.0\UnitConversionApp.csproj.CoreCompileInputs.cache
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\obj\Debug\net5.0\UnitConversionApp.dll
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\obj\Debug\net5.0\ref\UnitConversionApp.dll
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\obj\Debug\net5.0\UnitConversionApp.pdb
+C:\Users\Student\git\UnitConversionApp\UnitConversionApp\obj\Debug\net5.0\UnitConversionApp.genruntimeconfig.cache
