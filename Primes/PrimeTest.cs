@@ -28,15 +28,6 @@ namespace UnitConversionApp
 
 
 
-<<<<<<< HEAD
-            }
-            if (numberToTest == 69)
-            {
-                Console.WriteLine("nice");
-            }
-=======
->>>>>>> parent of 2b97ca0 (Prime Testing Working)
-
         //To Do - For User Input Error Checking
         public static void CheckUserInput()
         {
