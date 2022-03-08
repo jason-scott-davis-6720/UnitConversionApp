@@ -61,6 +61,10 @@ namespace UnitConversionApp
                 Console.Write($"\n\nExecution Time: {watch.ElapsedMilliseconds} ms\n\n");
 
             }
+            if (numberToTest == 69)
+            {
+                Console.WriteLine("nice");
+            }
 
         }
 
