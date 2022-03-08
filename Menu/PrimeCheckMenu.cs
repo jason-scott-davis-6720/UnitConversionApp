@@ -57,7 +57,7 @@ namespace UnitConversionApp.Menu
                 {
                     PrimeCheckMenu.HeadingGraphic(false);
                     Console.WriteLine(e.Message + "Please enter a valid option");
-                    PrimeCheckMenu.FootingGraphic();ggit 
+                    PrimeCheckMenu.FootingGraphic();
                     MenuOneDisplay(false);
                 }
                 if (!userMenuOptions.Contains(userMenuChoiceNumber))

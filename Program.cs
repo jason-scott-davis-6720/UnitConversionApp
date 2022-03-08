@@ -10,6 +10,8 @@ namespace UnitConversionApp
             Menu.PrimeCheckMenu.MenuOneDisplay(true);
             Menu.PrimeCheckMenu.MenuOneChoice();
 
+            PrimeTest.TestNumberForPrimeStatus();
+
 
 
 
