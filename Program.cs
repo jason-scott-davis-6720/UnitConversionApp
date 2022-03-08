@@ -6,11 +6,19 @@ namespace UnitConversionApp
     {
         static void Main(string[] args)
         {
-            
-            Menu.PrimeCheckMenu.MenuOneDisplay(true);
-            Menu.PrimeCheckMenu.MenuOneChoice();
+            int userMenuChoiceNumber;
+            do
+            { 
+               userMenuChoiceNumber = Menu.PrimeCheckMenuTight.MenuOne(true);
 
-            PrimeTest.TestNumberForPrimeStatus();
+                if (userMenuChoiceNumber == 1)
+                {
+                    PrimeTest.TestNumberForPrimeStatus();
+                }
+                
+                
+
+            } while (userMenuChoiceNumber == 1);
 
 
 

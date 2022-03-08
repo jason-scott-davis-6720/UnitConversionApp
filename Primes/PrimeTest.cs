@@ -29,7 +29,11 @@ namespace UnitConversionApp
 
 
 
-        //}
+        //To Do - For User Input Error Checking
+        public static void CheckUserInput()
+        {
+            throw new NotImplementedException();
+        }
 
     }
 }
