@@ -39,19 +39,22 @@ namespace UnitConversionApp
 
             var watch = new System.Diagnostics.Stopwatch();
             watch.Start();
+
+
             for (i = 2; i < maximumToTest; i++)
             //for (i = 2; i < maximumToTest; i += 2)
             {
+                Console.WriteLine($"{i}");
                 if (numberToTest % i == 0)
                 {
                     Console.WriteLine($"Your number is NOT Prime! It's lowest prime factor is {i}");
                     break;
                 }
-                else
-                {
-                    maximumToTest = numberToTest / i;
+                //else
+                //{
+                //    maximumToTest = numberToTest / i;
 
-                }
+                //}
             }
             if (i >= maximumToTest)
             {
@@ -59,6 +62,7 @@ namespace UnitConversionApp
                 Console.Write($"{i}\n\n");
                 watch.Stop();
                 Console.Write($"\n\nExecution Time: {watch.ElapsedMilliseconds} ms\n\n");
+                Console.Write($"\n\nExecution Time: {watch.ElapsedTicks} ticks\n\n");
 
             }
             if (numberToTest == 69)
