@@ -32,33 +32,35 @@ namespace UnitConversionApp
             {
                 Console.WriteLine("Kind of an odd one eh? One is divisible by one and itself, but that is itself, so .... yeah. Not prime");
             }
-            if (numberToTest == 2)
-            {
-                Console.WriteLine("There are no prime numbers lower than this one!");
-            }
 
             var watch = new System.Diagnostics.Stopwatch();
             watch.Start();
 
-
-            for (i = 2; i < maximumToTest; i++)
-            //for (i = 2; i < maximumToTest; i += 2)
+            //for (i = 3; i < maximumToTest; i++)
+            for (i = 3; i < maximumToTest; i += 2)
             {
-                Console.WriteLine($"{i}");
-                if (numberToTest % i == 0)
+                if (numberToTest % 2 == 0)
                 {
-                    Console.WriteLine($"Your number is NOT Prime! It's lowest prime factor is {i}");
-                    break;
+                    if (numberToTest == 2)
+                    {
+                        Console.WriteLine("There are no prime numbers lower than this one! Fun fact: Only even prime number!");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Your number is NOT Prime! It's lowest prime factor is 2");
+                        break;
+                    }
                 }
-                //else
-                //{
-                //    maximumToTest = numberToTest / i;
+                else
+                {
+                    maximumToTest = numberToTest / i;
 
-                //}
+                }
             }
             if (i >= maximumToTest)
             {
                 Console.WriteLine("Your Number is Prime!");
+
                 Console.Write($"{i}\n\n");
                 watch.Stop();
                 Console.Write($"\n\nExecution Time: {watch.ElapsedMilliseconds} ms\n\n");
@@ -67,7 +69,7 @@ namespace UnitConversionApp
             }
             if (numberToTest == 69)
             {
-                Console.WriteLine("nice");
+                Console.WriteLine("Wink, Wink!");
             }
 
         }
