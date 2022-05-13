@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace UnitConversionApp
+﻿namespace UnitConversionApp
 {
     class Program
     {

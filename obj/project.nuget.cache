@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yvk1PPf1kn9bCMfOMVztCJuQbOLvbo1bQpXtlL76hQDjAlGBYo6HRUBHUMvPrsNdJdrknKJpPDVK7NQ/XbLV6g==",
+  "dgSpecHash": "b5X+dNSvch+NM/DrSGpi7UE8O7nj/Gv2mJvw9JjBpxhJ9wahaKGLTegOmiFZbm1GvPk8M5EXMW6ieudbZRnNMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\git\\UnitConversionApp\\UnitConversionApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\JDAVIS12\\Programming\\UnitConversionApp\\UnitConversionApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JDAVIS12\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\JDAVIS12\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\JDAVIS12\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\JDAVIS12\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
